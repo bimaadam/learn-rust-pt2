@@ -78,7 +78,7 @@ pub async fn root_handler(req: Request) -> Html<String> {
 <body>
     <div class="card">
         <p>Current Server Time</p>
-        <h1>{time}</h1>
+        <h1>Jam {time}</h1>
         <div class="info">
             <p><span class="label">User Agent</span> {ua}</p>
             <p><span class="label">IP Address</span> {ip}</p>
